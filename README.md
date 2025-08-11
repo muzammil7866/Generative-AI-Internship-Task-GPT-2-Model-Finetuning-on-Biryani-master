@@ -94,10 +94,18 @@ Example:
 from transformers import pipeline
 
 generator = pipeline("text-generation", model="./gpt2-finetuned")
-prompt = "Biryani"
+prompt = "Biryani is very"
 output = generator(prompt, max_length=50, num_return_sequences=1)
 print(output[0]['generated_text'])
 ```
+
+## Outputs
+
+### Before:
+<img width="1246" height="194" alt="image" src="https://github.com/user-attachments/assets/c5851b1b-eef1-456c-a4c2-0242730535ed" />
+### After:
+<img width="277" height="78" alt="image" src="https://github.com/user-attachments/assets/ca8f5f4a-81dc-4198-bfb2-68afe00bda0e" />
+
 ## Repository Structure
 ```bash
 ├── custom_dataset.txt      # Your training data
@@ -107,13 +115,6 @@ print(output[0]['generated_text'])
 ├── requirements.txt        # Project dependencies
 └── README.md               # Project documentation
 ```
-
-## Outputs
-
-<img width="1246" height="194" alt="image" src="https://github.com/user-attachments/assets/c5851b1b-eef1-456c-a4c2-0242730535ed" />
-<img width="277" height="78" alt="image" src="https://github.com/user-attachments/assets/ca8f5f4a-81dc-4198-bfb2-68afe00bda0e" />
-
-
 
 ## Internship Learning Outcomes
 Learned the Hugging Face Transformers workflow for GPT-2
