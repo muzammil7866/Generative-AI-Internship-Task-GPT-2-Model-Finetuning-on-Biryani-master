@@ -102,8 +102,11 @@ print(output[0]['generated_text'])
 ## Outputs
 
 ### Before:
+
 <img width="1246" height="194" alt="image" src="https://github.com/user-attachments/assets/c5851b1b-eef1-456c-a4c2-0242730535ed" />
+
 ### After:
+
 <img width="277" height="78" alt="image" src="https://github.com/user-attachments/assets/ca8f5f4a-81dc-4198-bfb2-68afe00bda0e" />
 
 ## Repository Structure
