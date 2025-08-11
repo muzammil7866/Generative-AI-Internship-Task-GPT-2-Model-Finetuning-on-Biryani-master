@@ -42,8 +42,8 @@ Fine-tuning GPT-2 like this can support multiple business objectives:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/gpt2-biryani-finetune.git
-cd gpt2-biryani-finetune
+git clone https://github.com/your-username/Generative-AI-Internship-Task-GPT-2-Model-Finetuning-on-Biryani-master.git
+cd Generative-AI-Internship-Task-GPT-2-Model-Finetuning-on-Biryani-master
 ```
 
 ### 2. Install Dependencies
@@ -77,11 +77,11 @@ Lahore’s biryani is a blend of spices and tradition.
 ```bash
 python gpt2_basic.py
 ```
-### 5. Fine-Tune GPT-2
+### 5. Fine-Tune GPT-2 
 ```bash
 python gpt2_finetune.py
 ```
-## Usage
+## 6. Running for Testing 
 After fine-tuning, you can generate text with:
 
 ```bash
