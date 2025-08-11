@@ -101,7 +101,21 @@ print(output[0]['generated_text'])
 
 ## Outputs
 
-Coming Soon...
+### Before
+```txt
+Response without Finetuning:
+
+Biryani is very proud of the work he is doing in that area.
+"We're doing a lot of work in this area and we're looking to see how we can make sure that we make sure that all of our members are happy in their communities."
+This is an edited extract from the Radio-Television Correspondent's Association (RTA) podcast, which is available on iTunes, Stitcher and other devices.
+Topics: aboriginal-aboriginal-and-torres-strait-islander, community-and-society, community-and-society, sydney-2000, sydney-2000
+```
+### After
+```txt
+Response after Model Finetuning:
+
+Biryani is very rich in flavour.
+```
 
 ## Repository Structure
 ```bash
