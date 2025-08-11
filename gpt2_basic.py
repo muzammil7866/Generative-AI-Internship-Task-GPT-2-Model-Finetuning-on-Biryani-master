@@ -29,5 +29,5 @@ output = generator(
 )
 
 # 5. Print the generated text
-print("RESPONSE: \n\n")
+print("Response without Finetuning: \n\n")
 print(output[0]['generated_text'])
