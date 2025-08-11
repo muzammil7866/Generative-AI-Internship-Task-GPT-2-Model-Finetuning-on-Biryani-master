@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 ### requirements.txt
 
-```nginx
+```txt
 transformers
 datasets
 torch
@@ -68,7 +68,7 @@ Place it in the project root directory.
 
 Example:
 
-```csharp
+```txt
 The biryani of Lahore is rich and flavorful.
 Lahore’s biryani is a blend of spices and tradition.
 ```
@@ -101,17 +101,11 @@ print(output[0]['generated_text'])
 
 ## Outputs
 
-### Before:
-
-<img width="1246" height="194" alt="image" src="https://github.com/user-attachments/assets/c5851b1b-eef1-456c-a4c2-0242730535ed" />
-
-### After:
-
-<img width="277" height="78" alt="image" src="https://github.com/user-attachments/assets/ca8f5f4a-81dc-4198-bfb2-68afe00bda0e" />
+Coming Soon...
 
 ## Repository Structure
 ```bash
-├── custom_dataset.txt      # Your training data
+├── custom_dataset.txt      # Training data
 ├── gpt2_basic.py           # GPT-2 text generation without fine-tuning
 ├── gpt2_finetune.py        # Fine-tuning script
 ├── generate.py             # Generate text using the fine-tuned model
